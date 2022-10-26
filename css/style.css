@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(223, 237, 252);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .header_content{
+    background-color: rgb(46, 27, 27);
+    color: white;
+margin-top: 20px;
+}
+
+.header .header_content ol{
+    display: flex;
+
+}
+.header .header_content ol li{
+    list-style: none;
+    padding: 10px;
+}
+.header .header_content ol li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+.header .header_content ol li a:hover{
+    color: rgb(201, 224, 178);
+}
+
+.aside{
+    width: 24%;
+    background-color: aqua;
+    float: right;
+    height:100%;
+    padding: 5px;
+}
+
+
+/* footer */
+.footer{
+    clear: both;
+    background-color: rgb(34, 28, 28);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.index_content{
+    width: 75%;
+    float: left;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+
+.aside h3{
+    margin: 40px auto 15px auto;    
+}
+.aside ol li{
+    list-style: none;
+    /* padding: 6px 3px; */
+    background-color: antiquewhite;
+    margin-top: 2px;
+}
+.aside ol li a{
+    text-decoration: none;
+    display: block;
+    padding: 6px 3px;
+}
+
+.aside ol li:hover{
+    background-color: chocolate;
+}
+.aside ol li a:hover{
+    color: white;
+}
+.todaysmovie{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    
+}
